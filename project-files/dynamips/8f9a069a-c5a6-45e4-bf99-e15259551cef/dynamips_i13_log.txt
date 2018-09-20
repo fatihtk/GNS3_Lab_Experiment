@@ -1,0 +1,46 @@
+Sep 20 18:48:02.023 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 20 18:48:02.024 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65013.
+Sep 20 18:48:02.505 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 20 18:48:02.505 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Moonster\Desktop\Last_GNS_Project\project-files\dynamips 
+Sep 20 18:48:02.506 GENERAL: working_dir=C:\Users\Moonster\Desktop\Last_GNS_Project\project-files\dynamips
+Sep 20 18:48:02.506 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Moonster\Desktop\Last_GNS_Project\project-files\dynamips\c6d4755a-e173-48db-a4ce-645b0442734c 
+Sep 20 18:48:02.509 GENERAL: working_dir=C:\Users\Moonster\Desktop\Last_GNS_Project\project-files\dynamips\c6d4755a-e173-48db-a4ce-645b0442734c
+Sep 20 18:48:02.509 HYPERVISOR: exec_cmd: vm create R15 15 c7200 
+Sep 20 18:48:02.511 VM: VM R15 created.
+Sep 20 18:48:02.513 HYPERVISOR: exec_cmd: vm set_con_tcp_port R15 5014 
+Sep 20 18:48:02.513 HYPERVISOR: exec_cmd: c7200 get_mac_addr R15 
+Sep 20 18:48:02.513 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.514 HYPERVISOR: exec_cmd: vm slot_add_binding R15 0 0 C7200-IO-FE 
+Sep 20 18:48:02.515 HYPERVISOR: exec_cmd: vm set_disk0 R15 0 
+Sep 20 18:48:02.515 HYPERVISOR: exec_cmd: vm set_exec_area R15 64 
+Sep 20 18:48:02.516 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.517 HYPERVISOR: exec_cmd: vm set_idle_pc R15 0x608724c0 
+Sep 20 18:48:02.518 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Moonster/GNS3/images/IOS/c7200-jk9s-mz.124-13b.image 
+Sep 20 18:48:02.519 HYPERVISOR: exec_cmd: c7200 set_mac_addr R15 ca0f.1d68.0000 
+Sep 20 18:48:02.519 HYPERVISOR: exec_cmd: vm set_nvram R15 512 
+Sep 20 18:48:02.520 HYPERVISOR: exec_cmd: vm set_ram R15 512 
+Sep 20 18:48:02.520 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.521 HYPERVISOR: exec_cmd: vm slot_remove_binding R15 0 0 
+Sep 20 18:48:02.522 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.522 HYPERVISOR: exec_cmd: vm slot_add_binding R15 0 0 C7200-IO-GE-E 
+Sep 20 18:48:02.523 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.523 HYPERVISOR: exec_cmd: vm slot_add_binding R15 1 0 PA-GE 
+Sep 20 18:48:02.524 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.524 HYPERVISOR: exec_cmd: vm slot_add_binding R15 2 0 PA-GE 
+Sep 20 18:48:02.525 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.525 HYPERVISOR: exec_cmd: vm slot_add_binding R15 3 0 PA-8T 
+Sep 20 18:48:02.526 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.526 HYPERVISOR: exec_cmd: vm slot_add_binding R15 4 0 PA-8T 
+Sep 20 18:48:02.527 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.528 HYPERVISOR: exec_cmd: vm slot_add_binding R15 5 0 PA-4E 
+Sep 20 18:48:02.528 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:02.529 HYPERVISOR: exec_cmd: vm slot_add_binding R15 6 0 PA-4E 
+Sep 20 18:48:23.687 HYPERVISOR: exec_cmd: nio create_udp udp-7f54b1a5-85fb-4348-a5e3-4726fb3f49ea 10080 127.0.0.1 10081 
+Sep 20 18:48:24.229 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 0 0 udp-7f54b1a5-85fb-4348-a5e3-4726fb3f49ea 
+Sep 20 18:48:24.230 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:24.414 HYPERVISOR: exec_cmd: nio create_udp udp-342adcd0-2390-45f2-954d-4b4964ed4d12 10084 127.0.0.1 10085 
+Sep 20 18:48:24.426 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 1 0 udp-342adcd0-2390-45f2-954d-4b4964ed4d12 
+Sep 20 18:48:24.427 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 20 18:48:34.009 HYPERVISOR: exec_cmd: nio create_udp udp-42a1a824-d1b5-44ff-a4ac-ae31f9fa5e27 10162 127.0.0.1 10163 
+Sep 20 18:48:34.013 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 3 3 udp-42a1a824-d1b5-44ff-a4ac-ae31f9fa5e27 
+Sep 20 18:48:34.014 HYPERVISOR: exec_cmd: vm get_status R15 
